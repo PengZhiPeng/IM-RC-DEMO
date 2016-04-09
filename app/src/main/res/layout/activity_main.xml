@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:id="@+id/mainUserId"
+            android:hint="请输入要单聊的用户userId"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="单聊"
+            android:id="@+id/mainPrivateChat" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="会话列表"
+            android:id="@+id/mainConversationList" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="聚合会话列表"
+            android:id="@+id/mainSubConversationList" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:id="@+id/mainId"
+            android:hint="请输入聊天室id"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="聊天室"
+            android:id="@+id/mainConversation" />
+
+    </LinearLayout>
+</ScrollView>
