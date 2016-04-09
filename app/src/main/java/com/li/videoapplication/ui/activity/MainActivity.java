@@ -105,7 +105,7 @@ public class MainActivity extends TBaseActivity {
             RongIM.getInstance().startConversation(this,
                     Conversation.ConversationType.CHATROOM,
                     getMainId(),
-                    "时光就是个");
+                    null);
         }
     }
 }
